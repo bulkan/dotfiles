@@ -25,6 +25,7 @@ nm-applet &
 fbsetbg /home/bulkan/Pictures/lines.jpg &
 #wmcpuload &
 #wmmemload &
+#caffeine &
 wmbattery &
 wmwave &
 dropbox start &
