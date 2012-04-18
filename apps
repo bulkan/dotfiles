@@ -7,13 +7,12 @@
   [Layer]	{8}
 [end]
 [app] (name=nautilus) (class=Nautilus)
-  [Workspace]	{3}
   [Dimensions]	{800 575}
 [end]
 [app] (name=x-terminal-emulator) (class=X-terminal-emulator)
   [Head]	{1}
   [Dimensions]	{658 452}
-  [Position]	(UPPERLEFT)	{0 0}
+  [Position]	(UPPERLEFT)	{408 97}
   [Maximized]	{yes}
   [Fullscreen]	{no}
   [Close]	{yes}
@@ -30,4 +29,19 @@
   [Shaded]	{no}
   [Layer]	{8}
   [Close]	{yes}
+[end]
+[app] (name=terminator) (class=Terminator)
+  [Workspace]	{0}
+  [Head]	{1}
+  [Dimensions]	{1231 655}
+  [Position]	(UPPERLEFT)	{38 88}
+  [Shaded]	{no}
+  [Deco]	{NORMAL}
+  [Sticky]	{no}
+  [Minimized]	{no}
+  [Maximized]	{yes}
+  [Fullscreen]	{no}
+  [Layer]	{8}
+  [Close]	{yes}
+  [Alpha]	{255}
 [end]

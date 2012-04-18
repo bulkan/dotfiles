@@ -11,18 +11,16 @@ pidgin
 ilus
 m
 nautilus
-m
+gvim
+mp
 nautilus
-s
-m
-nautilus
-m
-firefox
-nautilus
-m
-firefox
 gimp
-nautilus
+skype
+xkill
+xchat
+terminator -e byobu
+xkill
+
 irefox
 gimp
 nautilus
@@ -65,3 +63,6 @@ skype
 xkill
 xchat
 terminator -e byobu
+cairo-dock -c
+cairo-dock
+conky

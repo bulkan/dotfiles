@@ -1,7 +1,5 @@
 session.screen0.tab.placement:	TopLeft
 session.screen0.tab.width:	64
-session.screen0.slit.alpha:	255
-session.screen0.slit.placement:	RightBottom
 session.screen0.slit.autoHide:	false
 session.screen0.slit.onhead:	0
 session.screen0.slit.layer:	Normal
@@ -56,6 +54,8 @@ session.screen0.strftimeFormat:	%d %b, %a %02k:%M:%S
 session.screen0.showwindowposition:	false
 session.screen0.tooltipDelay:	500
 session.screen0.tabFocusModel:	ClickToTabFocus
+session.screen0.window.focus.alpha: 255
+session.screen0.window.unfocus.alpha: 255
 session.cacheLife:	5
 session.slitlistFile:	/home/bulkan/.fluxbox/slitlist
 session.styleFile:	/usr/share/fluxbox/styles/bora_black

@@ -18,8 +18,8 @@ xmodmap "/home/bulkan/.Xmodmap"
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
 
-conky &
-bbpager &
+cairo-dock &
+#bbpager &
 gnome-sound-applet &
 nm-applet &
 fbsetbg /home/bulkan/Pictures/lines.jpg &
@@ -27,7 +27,9 @@ fbsetbg /home/bulkan/Pictures/lines.jpg &
 #wmmemload &
 wmbattery &
 wmwave &
+dropbox start &
 /usr/bin/terminator -e byobu &
+conky &
 
 
 exec fluxbox
