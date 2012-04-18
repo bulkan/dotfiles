@@ -12,8 +12,8 @@
 [app] (name=x-terminal-emulator) (class=X-terminal-emulator)
   [Head]	{1}
   [Dimensions]	{658 452}
-  [Position]	(UPPERLEFT)	{408 97}
-  [Maximized]	{yes}
+  [Position]	(UPPERLEFT)	{207 51}
+  [Maximized]	{no}
   [Fullscreen]	{no}
   [Close]	{yes}
 [end]
