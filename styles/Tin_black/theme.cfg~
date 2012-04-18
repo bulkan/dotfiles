@@ -1,0 +1,221 @@
+!----------------------------------------------------------------------------------------------
+! This work is licensed under the Creative Commons 
+! Attribution-NonCommercial-ShareAlike License. 
+! To view a copy of this license, visit 
+! http://creativecommons.org/licenses/by-nc-sa/1.0/
+!----------------------------------------------------------------------------------------------
+! Style Name: 						Leo Che
+! Style version						1.0
+! Style Author: 					endel (endel@tlen.pl)
+! Style Date: 						06.10.2008
+!----------------------------------------------------------------------------------------------
+
+*font:							kroeger 05_55 caps-7
+#*.font.effect:  					shadow
+#*.font.shadow.color: 					#535353
+#*.font.shadow.x: 					1
+#*.font.shadow.y: 					1
+
+!----------------------------------------------------------------------------------------------
+ 
+toolbar.bevelWidth:					1
+ 
+toolbar.borderWidth:					1
+toolbar.borderColor:					#949494
+
+toolbar.height:						15 
+toolbar.justify:					center
+ 
+toolbar:						flat gradient vertical	
+toolbar.pixmap:							
+toolbar.color:						#FFFFFF
+toolbar.colorTo:					#E2E2E2
+
+toolbar.shaped:                         		false
+toolbar.clock:						flat gradient vertical
+toolbar.clock.pixmap:						
+toolbar.clock.justify:					center
+toolbar.clock.color:					#FFFFFF
+toolbar.clock.colorTo:					#E2E2E2
+toolbar.clock.textColor:				#949494
+ 
+toolbar.workspace:					flat gradient vertical					
+toolbar.workspace.pixmap:				
+toolbar.workspace.justify:				center
+toolbar.workspace.color:				#FFFFFF				
+toolbar.workspace.colorTo:				#E2E2E2			
+toolbar.workspace.textColor:				#949494
+ 
+toolbar.button:						flat gradient vertical				 
+toolbar.button.pixmap:					
+toolbar.button.color:					#FFFFFF				
+toolbar.button.colorTo:					#E2E2E2		
+toolbar.button.picColor:				#949494
+toolbar.button.pressed:					flat gradient vertical			
+toolbar.button.pressed.pixmap:				
+toolbar.button.pressed.color:				#FFFFFF			
+toolbar.button.pressed.colorTo:				#E2E2E2		
+toolbar.button.pressed.picColor:                     			
+ 
+toolbar.iconbar.empty:					flat gradient vertical
+toolbar.iconbar.empty.pixmap:				
+toolbar.iconbar.empty.color:				#FFFFFF
+toolbar.iconbar.empty.colorTo:				#E2E2E2
+ 
+toolbar.iconbar.focused.borderWidth:			1
+toolbar.iconbar.focused.borderColor:			#949494
+toolbar.iconbar.focused:				flat gradient vertical
+toolbar.iconbar.focused.pixmap:			
+toolbar.iconbar.focused.color:				#FFFFFF
+toolbar.iconbar.focused.colorTo:			#E2E2E2
+toolbar.iconbar.focused.textColor:			#000000
+toolbar.iconbar.focused.justify:			center
+ 
+toolbar.iconbar.unfocused.borderWidth:			1
+toolbar.iconbar.unfocused.borderColor:			#949494
+toolbar.iconbar.unfocused:				flat gradient vertical	
+toolbar.iconbar.unfocused.pixmap:			
+toolbar.iconbar.unfocused.color:			#FFFFFF
+toolbar.iconbar.unfocused.colorTo:			#E2E2E2
+toolbar.iconbar.unfocused.textColor:			#949494
+toolbar.iconbar.unfocused.justify:			center
+
+!----------------------------------------------------------------------------------------------
+
+menu.bevelWidth:					1
+menu.itemHeight:					17
+menu.titleHeight:					15
+
+menu.roundCorners:						
+menu.borderColor:					#949494
+menu.borderWidth:					1
+
+menu.bullet.position:					right
+menu.bullet:						empty
+
+menu.submenu.pixmap:							
+menu.hilite.submenu.pixmap:				
+
+menu.selected.pixmap:					
+menu.hilite.selected.pixmap:			       
+
+menu.unselected.pixmap:					
+menu.hilite.unselected.pixmap:				
+
+menu.title:						flat gradient vertical								
+menu.title.pixmap:					
+menu.title.justify:					center
+menu.title.color:					#FFFFFF						
+menu.title.colorTo:					#E2E2E2					
+menu.title.textColor:					#949494
+
+menu.frame:	flat							
+menu.frame.pixmap:						
+menu.frame.justify:					left
+menu.frame.color:					#ffffff
+menu.frame.colorTo:					
+menu.frame.textColor:					#949494
+menu.frame.disableColor:				#726d69	
+ 
+menu.hilite:					   flat												
+menu.hilite.pixmap:                     		
+menu.hilite.color:					#949494							
+menu.hilite.colorTo:						
+menu.hilite.textColor:					#FFFFFF
+
+!----------------------------------------------------------------------------------------------
+ 
+window.bevelWidth:					3
+window.shade:							
+window.borderWidth:					1
+window.borderColor:					#949494
+window.roundCorners:					
+window.justify:						center
+
+window.title.height:					15
+
+window.title.focus:					flat gradient vertical				
+window.title.focus.pixmap:					
+window.title.focus.color:				#FFFFFF				
+window.title.focus.colorTo:				#E2E2E2				
+window.title.unfocus:					flat gradient vertical			
+window.title.unfocus.pixmap:			
+window.title.unfocus.color:				#FFFFFF				
+window.title.unfocus.colorTo:				#E2E2E2			
+
+window.label.focus:					ParentRelative
+window.label.focus.pixmap:				
+window.label.focus.color:				#FFFFFF			
+window.label.focus.colorTo:				#E2E2E2			
+window.label.focus.textColor:				#000000 
+window.label.unfocus:					ParentRelative
+window.label.unfocus.pixmap:					
+window.label.unfocus.color:				#FFFFFF				
+window.label.unfocus.colorTo:				#E2E2E2		
+window.label.unfocus.textColor:				#949494
+
+window.button.focus:					ParentRelative
+window.button.focus.color:      			
+window.button.focus.colorTo:      			
+window.button.focus.picColor:				#949494
+window.button.unfocus:					ParentRelative				
+window.button.unfocus.Color:						
+window.button.unfocus.ColorTo:						
+window.button.unfocus.picColor:				#B3B3B3
+window.button.pressed:					sunken			
+window.button.pressed.color:				#E2E2E2			
+window.button.pressed.colorTo:							
+window.button.pressed.picColor:				#949494
+
+window.shade.pixmap:					
+window.shade.unfocus.pixmap:			
+window.shade.pressed.pixmap:			
+
+window.unshade.pixmap:					
+window.unshade.unfocus.pixmap:			
+window.unshade.pressed.pixmap:			
+
+window.menuicon.pixmap:					
+window.menuicon.unfocus.pixmap:			
+window.menuicon.pressed.pixmap:			
+
+window.close.pixmap:					
+window.close.unfocus.pixmap:				
+window.close.pressed.pixmap:				
+
+window.iconify.pixmap:					
+window.iconify.unfocus.pixmap:				
+window.iconify.pressed.pixmap:				
+
+window.maximize.pixmap:					
+window.maximize.unfocus.pixmap:				
+window.maximize.pressed.pixmap:				
+
+window.stick.pixmap:					
+window.stick.unfocus.pixmap:				
+window.stick.pressed.pixmap:				
+
+window.stuck.pixmap:					
+window.stuck.unfocus.pixmap:				
+window.stuck.pressed.pixmap:				
+
+window.handle.focus:					flat gradient vertical				
+window.handle.focus.pixmap:				
+window.handle.focus.color:				#FFFFFF			
+window.handle.focus.colorTo:				#E2E2E2		
+window.handle.unfocus:					flat gradient vertical				
+window.handle.unfocus.pixmap:			
+window.handle.unfocus.color:				#FFFFFF		
+window.handle.unfocus.colorTo:				#E2E2E2		
+window.handleWidth:					2
+
+window.grip.focus:					flat gradient vertical					
+window.grip.focus.pixmap:					
+window.grip.focus.color:				#FFFFFF						
+window.grip.focus.colorTo:				#E2E2E2				
+window.grip.unfocus:					flat gradient vertical				
+window.grip.unfocus.pixmap:						
+window.grip.unfocus.color:				#FFFFFF				
+window.grip.unfocus.colorTo:				#E2E2E2				
+
+!----------------------------------------------------------------------------------------------
