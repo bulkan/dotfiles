@@ -1,0 +1,48 @@
+[user]
+    name = Bulkan Evcimen
+    email = bulkan@gmail.com
+
+[alias]
+    st = status
+    ci = commit
+    cib = commit --author bulkan
+
+    # legit alias`
+
+    switch = !legit switch \"$@\"
+    branches = !legit branches
+    sprout = !legit sprout \"$@\"
+    unpublish = !legit unpublish \"$@\"
+    harvest = !legit harvest \"$@\"
+    sync = !legit sync \"$@\"
+    publish = !legit publish \"$@\"
+    graft = !legit graft \"$@\"
+
+
+    # these aliases are from http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
+
+    # Stash operations
+
+    sl = stash list
+    sa = stash apply
+    ss = stash save
+
+    # List commits in short form, with colors and branch/tag annotations
+    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+
+    # List commits showing changed files
+    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+
+    # List oneline commits showing dates
+    lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+
+    # Show modified files in last commit
+    dl = "!git ll -1"
+
+    # Find a file path in codebase
+    f = "!git ls-files | grep -i"
+
+    # Search/grep your entire codebase for a string
+
+    grep = grep -Ii
+    gr = grep -Ii
