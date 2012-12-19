@@ -24,12 +24,12 @@
       parent = ""
       size = 1366, 731
     [[[child1]]]
-      labels = None, None
+      labels = localhost, pypy, kuchek
       type = Notebook
       order = 0
       parent = child0
     [[[child2]]]
-      position = 347
+      position = 495
       type = VPaned
       order = 0
       parent = child1
@@ -44,11 +44,18 @@
       type = Terminal
       order = 1
       parent = child1
-      command = ssh pypy
+      command = ssh pypy -t byobu
     [[[terminal4]]]
       profile = default
       type = Terminal
       order = 1
       parent = child2
-      command = ssh crunch
+      command = ssh crunch -t byobu
+    [[[terminal6]]]
+      profile = default
+      type = Terminal
+      order = 2
+      parent = child1
+      command = ssh kuchek -t byobu
 [plugins]
+
