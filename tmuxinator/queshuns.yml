@@ -1,0 +1,11 @@
+# ~/.tmuxinator/services.yml
+# you can make as many tabs as you wish...
+
+project_name: queshuns
+project_root: ~/src/python/queshuns
+#virtualenv: /home/src/python/queshuns
+#pre: workon queshuns
+tabs:
+  - shell: workon queshuns
+  - server: workon queshuns && python filter_daemon.py
+  - redis: redis-server
