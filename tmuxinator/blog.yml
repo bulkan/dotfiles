@@ -2,6 +2,7 @@
 
 project_name: blog
 project_root: ~/src/python/blog
-tabs:
-  - blog: workon blog
+pre_window: workon blog
+windows:
+  - shell: git st
   - serve: serve
