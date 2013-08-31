@@ -1,0 +1,7 @@
+name: puan
+root: ~/src/javascript/puan.io
+windows:
+  - editor: vim app.js
+  - shell: git pull
+  #- redis: redis-server
+  - mongo: mongod --dbpath=$HOME/.mongo_db
