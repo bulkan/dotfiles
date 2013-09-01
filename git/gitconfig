@@ -75,7 +75,7 @@
     changed = green
     untracked = cyan
 [core]
-    excludesfile = /Users/bulkan/.gitignore_global
+	excludesfile = ~/.gitignore
 [difftool "sourcetree"]
     cmd = opendiff \"$LOCAL\" \"$REMOTE\"
     path = 

@@ -1,1 +1,2 @@
 bind generic V !git push
+bind generic P !git pull
