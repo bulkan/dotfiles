@@ -1,7 +1,11 @@
 # from http://blog.ubrio.us/nix/best-bash-prompt/
-export PROMPT_COMMAND='PS1="\[\033[0;33m\][\!]\`if [[ \$? = "0" ]]; then echo "\\[\\033[32m\\]"; else echo "\\[\\033[31m\\]"; fi\`[\h: \`if [[ `pwd|wc -c|tr -d " "` > 18 ]]; then echo "\\W"; else echo "\\w"; fi\`]\$\[\033[0m\] "; echo -ne "\033]0;`hostname -s`:`pwd`\007"'
+#export PROMPT_COMMAND='PS1="\[\033[0;33m\][\!]\`if [[ \$? = "0" ]]; then echo "\\[\\033[32m\\]"; else echo "\\[\\033[31m\\]"; fi\`[\h: \`if [[ `pwd|wc -c|tr -d " "` > 18 ]]; then echo "\\W"; else echo "\\w"; fi\`]\$\[\033[0m\] "; echo -ne "\033]0;`hostname -s`:`pwd`\007"'
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+export PATH=/usr/local/bin:/usr/local/heroku/bin:$HOME/.bin:$PATH
+
+source $HOME/.bashrc
 
 alias mvim="mvim --remote-tab"
 alias redis-server="redis-server /usr/local/etc/redis.conf"
@@ -32,3 +36,8 @@ alias gcp="git cherry-pick"
 alias gl="git log --pretty='format:%Cgreen%h%Creset %an - %s' --graph"
 alias gpom="git pull origin master"
 alias gcd='cd "`git rev-parse --show-toplevel`"'
+
+
+#export PROMPT_COMMAND='PS1="$(_venv)[\w\[\033[00m\]]$(parse_git_branch): "'
+
+export PROMPT_COMMAND='PS1="\[\033[36m\]$(_venv)\[\033[0m\][\[\033[0m\]\w]\[\033[36m\]$(parse_git_branch):\[\033[0m\] "'
