@@ -1,1 +1,1 @@
-dotfiles for tools that use
+dotfiles for tools that I use
