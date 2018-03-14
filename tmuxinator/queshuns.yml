@@ -1,9 +1,0 @@
-# ~/.tmuxinator/services.yml
-
-project_name: queshuns
-project_root: ~/src/python/queshuns
-pre_window: workon queshuns
-windows:
-  - shell: git st
-  - server: python filter_daemon.py
-  - redis: redis-server
