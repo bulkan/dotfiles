@@ -1,5 +1,4 @@
-*.*swp
-swp
-*swo
-*pyc
-
+.direnv
+.envrc
+.vscode/
+.DS_Store
