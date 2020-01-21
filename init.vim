@@ -25,7 +25,7 @@ Plug 'tpope/vim-repeat'
 
 Plug 'benekastah/neomake'
 
-Plug 'junegunn/fzf',  { 'dir': '/Users/bulkan/src/go/src/github.com/junegunn/fzf'}
+Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-pseudocl'
 Plug 'junegunn/vim-oblique'
