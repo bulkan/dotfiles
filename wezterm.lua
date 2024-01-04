@@ -16,7 +16,7 @@ end
 config.color_scheme = "catppuccin-mocha"
 
 config.font = wezterm.font_with_fallback({
-	"Monoid",
+	"Monoid Nerd Font",
 	"FiraCode Nerd Font",
 })
 
