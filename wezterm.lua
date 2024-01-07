@@ -16,11 +16,12 @@ end
 config.color_scheme = "catppuccin-mocha"
 
 config.font = wezterm.font_with_fallback({
-	"Monoid Nerd Font",
+	-- "Monoid Nerd Font",
+	"SauceCodePro Nerd Font",
 	"FiraCode Nerd Font",
 })
 
-config.font_size = 16.5
+config.font_size = 20
 
 -- and finally, return the configuration to wezterm
 return config
