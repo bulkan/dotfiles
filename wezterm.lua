@@ -23,5 +23,7 @@ config.font = wezterm.font_with_fallback({
 
 config.font_size = 20
 
+config.max_fps = 120
+
 -- and finally, return the configuration to wezterm
 return config
