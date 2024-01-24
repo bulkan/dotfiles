@@ -5,4 +5,3 @@
 -- vim.g.maplocalleader = "\\"
 
 vim.opt.relativenumber = false
-vim.opt.foldcolumn = 1
