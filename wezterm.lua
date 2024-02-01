@@ -25,5 +25,7 @@ config.font_size = 20
 
 config.max_fps = 120
 
+config.show_update_window = true
+
 -- and finally, return the configuration to wezterm
 return config
