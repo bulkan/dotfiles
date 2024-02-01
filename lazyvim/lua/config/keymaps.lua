@@ -4,3 +4,5 @@
 
 vim.keymap.set("n", "<leader>p", "<cmd>Telescope oldfiles<CR>")
 vim.keymap.set("n", "<leader>P", "<cmd>Commands<CR>")
+vim.keymap.set("n", "<leader>wz", "<cmd>WindowsMaximize<CR>")
+vim.keymap.set("n", "<leader>w=", "<cmd>WindowsEqualize<CR>")
