@@ -1,0 +1,18 @@
+[java]
+disabled = true
+
+[kubernetes]
+format = '[$context \($namespace\)](dimmed green) '
+disabled = false
+
+[docker_context]
+disabled = true
+
+[aws]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[gcloud]
+disabled = true
