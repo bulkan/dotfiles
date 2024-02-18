@@ -74,11 +74,10 @@
     added = yellow
     changed = green
     untracked = cyan
-[core]
-	excludesfile = ~/Code/bulkan/dotfiles/git/gitignore
 [push]
   default = current
-
+[pull]
+	rebase = true
 
 [url "git@github.com:"]
   insteadOf = https://github.com/
