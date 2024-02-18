@@ -3,7 +3,7 @@ disabled = true
 
 [kubernetes]
 format = '[$context \($namespace\)](dimmed green) '
-disabled = false
+detect_folders = ["kubernetes"]
 
 [docker_context]
 disabled = true
@@ -16,3 +16,6 @@ disabled = true
 
 [gcloud]
 disabled = true
+
+[rust]
+disabled = false
