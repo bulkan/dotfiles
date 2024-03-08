@@ -4,6 +4,7 @@ disabled = true
 [kubernetes]
 format = '[$context \($namespace\)](dimmed green) '
 detect_folders = ["kubernetes"]
+disabled = false
 
 [docker_context]
 disabled = true
