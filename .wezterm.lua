@@ -13,7 +13,8 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = "catppuccin-mocha"
+config.color_scheme = "Bamboo"
+-- config.color_scheme = "vulcan (base16)"
 
 config.font = wezterm.font_with_fallback({
 	-- "Monoid Nerd Font",
