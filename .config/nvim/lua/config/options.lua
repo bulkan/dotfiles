@@ -5,3 +5,5 @@
 -- vim.g.maplocalleader = "\\"
 
 vim.opt.relativenumber = false
+
+vim.g.root_spec = { "cwd", { ".git", "lua" }, "lsp", "cwd" }
