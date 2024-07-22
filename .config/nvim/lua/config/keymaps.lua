@@ -23,7 +23,8 @@ vim.keymap.set("n", "<leader>?", require("telescope.builtin").oldfiles, { desc =
 
 vim.keymap.set("n", "<leader>sW", ":FzfLua grep_visual<CR>", { desc = "Grep visual selection" })
 vim.keymap.set("n", "<leader>sg", ":FzfLua live_grep_glob<CR>", { desc = "Search by Grep" })
-vim.keymap.set("n", "<C-f>", ":FzfLua live_grep_glob<CR>", { desc = "Search by Grep" })
+vim.keymap.set("n", "<leader>sG", ":FzfLua live_grep_glob git_files=false<CR>", { desc = "Search by Grep (No Git)" })
+-- vim.keymap.set("n", "<C-f>", ":FzfLua live_grep_glob<CR>", { desc = "Search by Grep" })
 vim.keymap.set(
   "n",
   "<leader>lg",
@@ -35,6 +36,8 @@ vim.keymap.set("n", "<leader>ll", "<cmd>Lazy<CR>", { desc = "Open LazyVim" })
 
 -- FzfLua
 vim.keymap.set("n", "ms", "<cmd>FzfLua marks<CR>", { desc = "Search marks" })
+vim.keymap.set("n", "0", ":FzfLua buffers<CR>", { desc = "Buffers" })
+vim.keymap.set("n", "<leader><leader>", ":FzfLua git_files<CR>", { desc = "Git Files" })
 
 -- Oil
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
