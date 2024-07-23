@@ -41,3 +41,6 @@ vim.keymap.set("n", "<leader><leader>", ":FzfLua git_files<CR>", { desc = "Git F
 
 -- Oil
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+
+--- Neotree
+vim.keymap.set("n", "<leader>n", "<cmd>Neotree position=float reveal toggle<CR>", { desc = "Toggle file tree" })
