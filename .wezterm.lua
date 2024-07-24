@@ -13,7 +13,7 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = "Bamboo"
+config.color_scheme = "catppuccin-macchiato"
 -- config.color_scheme = "vulcan (base16)"
 
 config.font = wezterm.font_with_fallback({
@@ -27,6 +27,10 @@ config.font_size = 20
 config.max_fps = 120
 
 config.show_update_window = true
+
+config.window_decorations = 'RESIZE'
+
+config.hide_tab_bar_if_only_one_tab = true
 
 -- and finally, return the configuration to wezterm
 return config
