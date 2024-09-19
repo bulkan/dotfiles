@@ -17,9 +17,8 @@ config.color_scheme = "catppuccin-macchiato"
 -- config.color_scheme = "vulcan (base16)"
 
 config.font = wezterm.font_with_fallback({
-	-- "Monoid Nerd Font",
+	"IntoneMono Nerd Font",
 	"SauceCodePro Nerd Font",
-	"FiraCode Nerd Font",
 })
 
 config.font_size = 20
@@ -28,7 +27,7 @@ config.max_fps = 120
 
 config.show_update_window = true
 
-config.window_decorations = 'RESIZE'
+config.window_decorations = "RESIZE"
 
 config.hide_tab_bar_if_only_one_tab = true
 
