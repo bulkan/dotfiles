@@ -18,12 +18,13 @@ config.color_scheme = "catppuccin-macchiato"
 
 config.font = wezterm.font_with_fallback({
 	"IntoneMono Nerd Font",
+	-- "Monoid Nerd Font",
 	"SauceCodePro Nerd Font",
 })
 
 config.font_size = 20
 
-config.max_fps = 120
+config.max_fps = 240
 
 config.show_update_window = true
 
