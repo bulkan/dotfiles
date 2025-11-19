@@ -7,18 +7,21 @@ return {
     require("fzf-lua").setup({
       winopts = {
         preview = {
-          layout = "vertical",
+          layout = "flex",
           default = "bat",
+          border = "none",
         },
+        backdrop = 40,
+        -- split = "belowright new",
       },
       rg_glob = true, -- enable glob parsing by default to all -- grep providers? (default:false)
       glob_flag = "--iglob", -- for case sensitive globs use '--glob'
       glob_separator = "%s%-%-", -- query separator pattern (lua): ' --',
       git_icons = false,
-
-      keys = {
-        { "<leader><space>", false },
-      },
     })
   end,
+  keys = {
+    { "<leader><space>", false },
+    { "<leader>sg", false },
+  },
 }

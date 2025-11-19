@@ -3,11 +3,8 @@ return {
   opts = {
     ensure_installed = {
       "kdl",
-      "kotlin",
       "styled",
       "rust",
-      "ruby",
-      "jsonnet",
       "yaml",
     },
   },
