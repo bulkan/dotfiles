@@ -13,16 +13,16 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = "catppuccin-macchiato"
--- config.color_scheme = "vulcan (base16)"
+-- config.color_scheme = "catppuccin-macchiato"
+-- config.color_scheme = "Mocha (dark) (terminal.sexy)"
+config.color_scheme = "rose-pine-moon"
 
 config.font = wezterm.font_with_fallback({
+	"SauceCodePro Nerd Font Mono",
 	"IntoneMono Nerd Font",
-	-- "Monoid Nerd Font",
-	"SauceCodePro Nerd Font",
 })
 
-config.font_size = 20
+config.font_size = 16
 
 config.max_fps = 240
 
